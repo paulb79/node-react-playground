@@ -15,9 +15,9 @@ module.exports = function(config) {
                 timeout: '5000'
             }
         } ,
-        webpackk: webpackconfig,
+        webpack: webpackconfig,
         webpackServer: {
-            noInfor: true
+            noInfo: true
         }
     });
 };
